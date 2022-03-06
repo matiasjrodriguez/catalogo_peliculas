@@ -12,7 +12,7 @@ while opcion != 4:
         print("4. Salir")
         print("")
         opcion = int(input("Ingrese una opción "))
-    except Exception as e:
+    except:
         print("Ocurrió un error")
         opcion = None
     
